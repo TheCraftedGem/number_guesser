@@ -7,7 +7,7 @@ function setRange() {
 // sets range when range button is clicked
   min = parseInt(document.getElementById("minimum").value);
   max = parseInt(document.getElementById("maximum").value);
-  answer = randomNumber();
+  answer = generaterandomNumber();
 }
 
 function submitGuess() {
